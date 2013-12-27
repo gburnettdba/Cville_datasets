@@ -1,0 +1,1027 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Greg Burnett</Author>
+  <LastAuthor>Greg Burnett</LastAuthor>
+  <Created>2013-11-29T21:41:28Z</Created>
+  <LastSaved>2013-12-05T01:44:43Z</LastSaved>
+  <Company>Crutchfield</Company>
+  <Version>14.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9015</WindowHeight>
+  <WindowWidth>20115</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"
+    ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"
+    ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="15"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s28">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"
+    ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"
+    ss:ReadingOrder="LeftToRight" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#2DEF7A" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"
+    ss:ReadingOrder="LeftToRight" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#2DEF7A" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"
+    ss:ReadingOrder="LeftToRight" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#4FC6C6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"
+    ss:ReadingOrder="LeftToRight" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#4FC6C6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7.5" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="page23" ss:RefersTo="=Sheet1!R45C1"/>
+   <NamedRange ss:Name="page24" ss:RefersTo="=Sheet1!R95C1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="102" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s17" ss:DefaultColumnWidth="159.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:Index="6" ss:StyleID="s17" ss:Width="55.5" ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s17" ss:Width="57"/>
+   <Column ss:StyleID="s17" ss:Width="58.5"/>
+   <Column ss:StyleID="s17" ss:Width="57"/>
+   <Column ss:StyleID="s17" ss:Width="58.5"/>
+   <Column ss:StyleID="s17" ss:Width="57"/>
+   <Column ss:StyleID="s17" ss:Width="58.5"/>
+   <Column ss:StyleID="s17" ss:Width="57" ss:Span="1"/>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">focus area</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">entity</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">hexcolor</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2005</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2006</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2007</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2008</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2009</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2010</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2011</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2012</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2013</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">year2014</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Local Taxes</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">826476357</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">66630057</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">70460607</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">76003607</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">83959949</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">89056610</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">87539844</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">85790966</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">87957960</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">88997921</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">90078836</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Licenses &amp; Permits</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">72133727</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5570000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5949682</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6225130</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">7401130</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">7425630</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">7162430</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">7622375</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">7908668</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">8044000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">8824682</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Intergov't Revenue</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">133848549</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12215138</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12273414</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13260465</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14138433</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14143827</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13905983</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13124744</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13018946</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13408252</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14359347</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Charges for Services</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">135608425</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12026694</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">11863750</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12491797</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13399086</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14213253</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13596826</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13619121</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14081330</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14893637</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">15422931</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Fines</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">4500000</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">405000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">405000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">405000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">405000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">405000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">405000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">570000</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Misc. Revenue</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">15761003</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">660000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1052571</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1624391</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2146801</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2114251</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1794519</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1639864</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1749822</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1593051</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1385733</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City/County Rev. Sharing</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">143764005</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">8004461</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">9742748</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">10134816</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13212401</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13633950</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">18038878</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">18454658</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">18089812</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">17520948</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">16931333</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Carryover Funds</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">905778</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">790778</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">115000</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Transfers from Other Funds</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">1001323</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">521323</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">480000</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75" ss:StyleID="s28">
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Total revenue:</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">1333999167</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Revenue</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="String">#2DF7AA</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">105511350</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">111747772</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">120145206</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">134662800</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">140992521</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">142443480</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">140751728</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">143306538</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">146269910</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">148167862</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Management</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">34397839</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4793310</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2727899</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2864790</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3077641</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3227844</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3421192</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3479972</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3453169</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3515905</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3836117</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Employee Compensation/Training</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">7504007</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1648578</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1564225</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1364980</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1817064</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">80000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">146000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">180915</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">271415</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">260415</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">170415</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Debt Service</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">27973487</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5350000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5775000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5714000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5932000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1791960</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">445000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">495000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1140527</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">695000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">635000</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Fund Balance Target Adj.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">40787896</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">200000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">400000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">323702</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">330194</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6150000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6692000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6392000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6700000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">7050000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">6550000</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Internal Services</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">6369906</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1158717</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1206785</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1204404</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">500000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">300000</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Financial Services</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">18888613</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3378875</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3591651</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3934675</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1305324</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1304478</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1313247</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1305265</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1376182</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">1378916</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Business Services/Technology</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">28968632</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">3455799</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4095991</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4168059</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4209841</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4236608</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4405325</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">4397009</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Healthy Families/Community</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">223818375</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14889745</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">17952419</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">19968390</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">22774985</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">24088316</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">24373529</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">23991343</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">24760367</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">25178973</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">25840308</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Infrastructure/Transportation</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">135703474</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">15069686</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14828209</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12004928</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13423256</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">14466193</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13468761</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12867252</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12751780</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13363570</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13459839</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Public Safety/Justice</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">309684193</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">24400207</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">26099903</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">28661073</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">31319936</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">31887986</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">32244160</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">32491252</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">33324127</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">34358885</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">34896664</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">School Operations (local funds)</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">384138849</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">30620025</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">32100025</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">34012025</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">38340609</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">39781531</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">40209612</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">40080523</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">41820475</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">43106198</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">44067826</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Designated Expenditures</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">109687016</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5084000</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">5762500</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">10432882</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12508036</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">13617376</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12674884</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">11954578</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12557535</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12459457</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">12635768</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Economic Downturn Fund</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">6076880</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2795805</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">2795805</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">485270</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75" ss:StyleID="s30">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Total expenditures</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">City</Data></Cell>
+    <Cell ss:StyleID="s36" ss:Formula="=SUM(RC[3]:RC[12])"><Data ss:Type="Number">1333999167</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Expenditure</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">#4FC6C6</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=SUM(R[-13]C:R[-1]C)"><Data ss:Type="Number">105511350</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=SUM(R[-13]C:R[-1]C)"><Data ss:Type="Number">111747772</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">120145206</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">134662800</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">140992521</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">142443480</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">140751728</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">143306538</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">146269910</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=SUM(R[-13]C:R[-1]C)"><Data ss:Type="Number">148167862</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Source: City of Charlottesville Budget Office</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:Index="45">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">City of Charlottesville</Data><NamedCell
+      ss:Name="page23"/></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">GENERAL FUND BUDGET TRENDS BY MAJOR CATEGORY</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fiscal Year 2005 - 2014</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Index="80" ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Source: City of Charlottesville Budget Office</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:Index="95">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">City of Charlottesville</Data><NamedCell
+      ss:Name="page24"/></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">GENERAL FUND BUDGET TRENDS BY MAJOR CATEGORY</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fiscal Year 2005 - 2014</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <RangeSelection>R12</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
